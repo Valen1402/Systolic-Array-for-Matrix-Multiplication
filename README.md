@@ -26,8 +26,8 @@
   + Input feature map RAM bit width: 16 bit x 16 (column major ordering)
   + Weight RAM bit width: 8 bit x 16 (column major ordering)
   + Output feature map RAM bit width: 32 bit x 16 (column major ordering)
-    
-    ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/4079417f-5eb9-4490-9177-e41bb1af30bd)
+ 
+  ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/f3cddbf8-820f-4a61-9cd9-607b1dc73608)
 
 
 **MATRIX MULTIPLICATION OPERATION**
@@ -39,17 +39,15 @@
     So we need 18 tiling for input data, and 4x18=72 tiling for Weight data.
   + The tiling scheme in use:
 
+  ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/4079417f-5eb9-4490-9177-e41bb1af30bd)
+
   + Computation order to fully reuse the Weight:
     
-    ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/e1ebb266-610a-4ce6-bc8c-c2a6decabec5)
+  ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/e1ebb266-610a-4ce6-bc8c-c2a6decabec5)
 
   + Physical mapping to the MAC Array
     
     ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/fad76780-3dcf-4d48-9737-de5dabda1e88)    
- 
-**BLOCK DIAGRAM**
-
-![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/f3cddbf8-820f-4a61-9cd9-607b1dc73608)
 
 
 **TESTBENCHES**
