@@ -55,4 +55,4 @@
   + Physical mapping to the MAC Array
 
 ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/fad76780-3dcf-4d48-9737-de5dabda1e88)    
-m/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/62e62e5f-0573-44c2-a59e-25a9f2063fca)
+![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/62e62e5f-0573-44c2-a59e-25a9f2063fca)
