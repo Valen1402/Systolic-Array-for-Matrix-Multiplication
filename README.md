@@ -20,23 +20,25 @@
 
 ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/de3ec0dc-d950-4a0a-8bce-56055f82a046)
 
-![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/3855e82f-53da-470f-8335-26980710fe59)
-
-
  
 **MEMORY CONTROLLER SPECIFICATION:**
 - Data structure in SRAM
   + Input feature map RAM bit width: 16 bit x 16 (column major ordering)
   + Weight RAM bit width: 8 bit x 16 (column major ordering)
   + Output feature map RAM bit width: 32 bit x 16 (column major ordering)
- 
+    
+    ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/4079417f-5eb9-4490-9177-e41bb1af30bd)
+
+
+**MATRIX MULTIPLICATION OPERATION**
+- Dataflow in MAC Array
+ ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/3855e82f-53da-470f-8335-26980710fe59)
+
 - Data Tiling:
   + Input data dimension is 288x196, and Weight data dimension is 64x288.
     So we need 18 tiling for input data, and 4x18=72 tiling for Weight data.
   + The tiling scheme in use:
-    
-    ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/4079417f-5eb9-4490-9177-e41bb1af30bd)
-    
+
   + Computation order to fully reuse the Weight:
     
     ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/e1ebb266-610a-4ce6-bc8c-c2a6decabec5)
