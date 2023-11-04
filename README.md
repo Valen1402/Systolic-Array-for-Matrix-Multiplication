@@ -16,11 +16,11 @@
   + Weight matrix: 64 x 288
   + Output matrix: 64 x 196
 
+![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/8d85ab4c-31f8-4f01-9a16-3b1486ee5995)
+
 ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/de3ec0dc-d950-4a0a-8bce-56055f82a046)
 
 ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/3855e82f-53da-470f-8335-26980710fe59)
-
-![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/8d85ab4c-31f8-4f01-9a16-3b1486ee5995)
 
 
  
@@ -46,5 +46,9 @@
     ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/fad76780-3dcf-4d48-9737-de5dabda1e88)    
  
 **BLOCK DIAGRAM**
-![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/62e62e5f-0573-44c2-a59e-25a9f2063fca)
+
 ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/f3cddbf8-820f-4a61-9cd9-607b1dc73608)
+
+
+**TESTBENCHES**
+![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/62e62e5f-0573-44c2-a59e-25a9f2063fca)
