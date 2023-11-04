@@ -97,7 +97,7 @@ module MemoryController
             w_prefetch_out          <= 1;
             w_addr_out              <= 0;
             w_read_en_out           <= 1;
-            w_cycle_count           <= 0; // or 1, need to check
+            w_cycle_count           <= 0;
             w_tiling_count1         <= 0;
 
             input_fetching          <= 0;
@@ -113,14 +113,15 @@ module MemoryController
             w_prefetch_out          <= 0;
             w_cycle_count           <= w_cycle_count + 1;
 
-            if (w_cycle_count != 4'hf) begin // or 4'he, need to check
+            //after 16 cycles, increment the address
+            if (w_cycle_count != 4'hf) begin
                 w_addr_out          <= w_addr_out + 4;
                 w_read_en_out       <= 1;
 
             // end weight prefetching, start input fetching
             end else begin
                 w_read_en_out       <= 0;
-                w_tiling_count1     <= w_tiling_count1+ 1;
+                w_tiling_count1     <= w_tiling_count1 + 1;
                 weight_prefetching  <= 0;
                 input_start_out     <= 1;
                 input_fetching      <= 1;
