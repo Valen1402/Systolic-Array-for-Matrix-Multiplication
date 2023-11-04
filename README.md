@@ -7,6 +7,7 @@
 - Implement signals to control output matrix write from MAC array to memory (SRAM)
 
 
+
 **II. DATAPATH SPECIFICATION:**
 - Input feature map bit-width: 16-bit
 - Weight bit-width: 8-bit
@@ -21,7 +22,10 @@
 
 ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/de3ec0dc-d950-4a0a-8bce-56055f82a046)
 
- 
+![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/bb4738ea-1135-4209-afcc-845975d287fc)
+
+
+
 **III. MEMORY CONTROLLER SPECIFICATION:**
 - Data structure in SRAM
   + Input feature map RAM bit width: 16 bit x 16 (column major ordering)
@@ -29,6 +33,7 @@
   + Output feature map RAM bit width: 32 bit x 16 (column major ordering)
  
   ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/f3cddbf8-820f-4a61-9cd9-607b1dc73608)
+
 
 
 **IV. MATRIX MULTIPLICATION OPERATION**
@@ -49,7 +54,4 @@
   + Physical mapping to the MAC Array
     
     ![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/fad76780-3dcf-4d48-9737-de5dabda1e88)    
-
-
-**V. TESTBENCHES**
-![image](https://github.com/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/62e62e5f-0573-44c2-a59e-25a9f2063fca)
+m/Valen1402/Systolic-Array-for-Matrix-Multiplication/assets/82108029/62e62e5f-0573-44c2-a59e-25a9f2063fca)
